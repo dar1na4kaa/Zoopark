@@ -1,0 +1,29 @@
+﻿<Page x:Class="Zoo.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Zoo"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="850"
+      Title="Account_Window">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBlock  Width="400" Height="30" VerticalAlignment="Top"   FontSize="22" FontFamily="Constantia"  TextAlignment="Center" Margin="0,20">Приветствуем на странице Зоопарка!</TextBlock>
+            <Button Height="30" Width="300" Margin="0,20"  Content="Ознакомиться с видами животных" FontSize="15" FontFamily="Constantia"></Button>
+            <Button Height="30" Width="300" Margin="0,20" FontFamily="Constantia" FontSize="15" Content="Ознакомиться с помещениями"></Button>
+            <Button Height="30" Width="300" Margin="0,20" FontFamily="Constantia" FontSize="15" Content="Ознакомиться с размещением животных"></Button>
+            <TextBlock Width="400" Height="30" VerticalAlignment="Top"   FontSize="22" FontFamily="Constantia"  TextAlignment="Center" Margin="0,5">Ввести желаемый запрос:></TextBlock>
+            <TextBox Height="20" Width="300" Margin="0,5"></TextBox>
+            <Button Height="30" Width="300" Margin="0,10" FontFamily="Constantia" FontSize="15" Content="Отправить запрос"></Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            
+        </StackPanel>
+    </Grid>
+</Page>
